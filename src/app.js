@@ -12,7 +12,7 @@ app.use(cors({
   origin: "*",
 }))
 app.use(express.json());
-  app.use(express.urlencoded({ extended: true })); // Middleware to parse URL-encoded data
+  app.use(express.urlencoded({ extended: true })); 
   
   Routes(app);
   ReviewRoute(app);
